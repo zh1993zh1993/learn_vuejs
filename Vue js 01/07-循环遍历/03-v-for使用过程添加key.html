@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--  letter：信，字母-->
+<!--  key的作用：为了高效的更新虚拟DOM，正确识别节点，
+给每一个节点做唯一标识，再找到正确的位置插入新的节点-->
+  <ul>
+    <li v-for="item in letters" :key="item">{{item}}</li>
+  </ul>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+  const app =new Vue({
+    el: '#app',
+    data:{
+      letters:['A','B','C','D','E']
+    }
+  })
+</script>
+</body>
+</html>

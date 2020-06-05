@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--1.checkbox单选框 对应布尔类型 -->
+<!--
+  <label for="agree">
+    <input type="checkbox" id="agree" v-model="isAgree">同意协议
+  </label>
+  <h2>您的选择是：{{isAgree}}</h2>
+  <button :disabled="!isAgree">下一步</button>-->
+
+  <!--2.checkbox多选框 对应数组类型 -->
+    <input type="checkbox" value="篮球" v-model="hobbies">篮球
+    <input type="checkbox" value="足球" v-model="hobbies">足球
+    <input type="checkbox" value="乒乓球" v-model="hobbies">乒乓球
+    <input type="checkbox" value="羽毛球" v-model="hobbies">羽毛球
+  <h2>您的爱好是：{{hobbies}}</h2>
+<!--  不将值写死，利用v-for遍历的方式，真实开发中，
+这些input值可能是从网络或许或定义在data中的
+我们可以通过v-bind：value动态的给value绑定值-->
+  <label v-for="item in originHobbies" :for="item">
+    <input type="checkbox" :value="item" :id="item" v-model="hobbies">{{item}}</label>
+  <h2>您的爱好是：{{hobbies}}</h2>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+  const app =new Vue({
+    el: '#app',
+    data:{
+      message:'你好啊',
+      isAgree:false,//单选框
+      hobbies:[],//多选框
+      originHobbies:['篮球','足球' , '乒乓球' , '羽毛球']
+    }
+  })
+</script>
+</body>
+</html>

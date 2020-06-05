@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <cpn :cmovies="movies" v-bind:cmessage="message"></cpn>
+</div>
+<template id="cpn">
+  <div>
+    <ul>
+      <li v-for="item in cmovies">{{item}}</li>
+    </ul>
+  <h2>{{cmessage}}</h2>
+  </div>
+</template>
+<script src="../js/vue.js"></script>
+<script>
+  //父传子：props
+  const cpn={
+    template:'#cpn',
+    //开发中很少用： props:['cmovies','cmessage'],
+    props:{
+      //1.类型的限制
+      /*
+      cmovies:Array,
+      cmessage:String*/
+    //  2.提供默认值
+      cmessage:{
+        type:String,
+        //默认值
+        default:'aaa',
+        //必须传的值
+        required:true
+      },
+      // 类型对象时对象或者数组时，默认值必须是一个函数
+      cmovies:{
+        type:Array,
+        default(){
+          return[]
+        }
+      }
+    },
+    data(){
+      return{}
+    }
+  }
+  const app =new Vue({
+    el: '#app',
+    data:{
+      message:'你好啊',
+      movies:['海王','海贼王','海尔兄弟']
+    },
+    components:{
+     // 对象自变量增强写法，原写法，'cpn':cpn
+     cpn
+    }
+  })
+</script>
+</body>
+</html>
+<!--
+父子组件的通信：
+通过props向子组件传递数据
+props----properties:属性，有两种方式
+方式一：字符串数组，数组中的字符串就是传递时的名称
+方式二：对象，对象可以设置传递时的类型，也可以设置默认值等
+
+
+
+通过事件向父组件发送消息
+-->

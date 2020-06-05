@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<!--
+slot：插槽
+目的：让原来的设备具备更多的扩展性
+组件的插槽：
+为了让封装的组件更加具有扩展性
+让使用者可以决定组件内部的一些内容到底展示什么？
+1.基本使用：<slot></slot>
+2.默认值：<slot><button></button></slot>
+3.如果有多个值，同时放到组件进行替换时，一起作为替换元素将默认值替换掉
+-->
+<div id="app">
+  <cpn>  <button>按钮</button></cpn>
+  <cpn>  <span>哈哈哈</span></cpn>
+  <cpn>
+    <i>呵呵呵</i>
+    <div>我是div元素</div>
+    <p>我是P元素</p>
+  </cpn>
+  <cpn> <button>按钮</button></cpn>
+</div>
+<template id="cpn">
+  <div>
+    <h2>我是组件</h2>
+    <p>我是组件哈哈哈</p>
+<!--    将共性的东西封装成组件，不同的用slot预留位置,可以在里面默认放东西-->
+    <slot><button></button></slot>
+  </div>
+</template>
+<script src="../js/vue.js"></script>
+<script>
+  const app =new Vue({
+    el: '#app',
+    data:{
+      message:'你好啊'
+    },
+    components:{
+      cpn:{
+        template:'#cpn'
+      }
+    }
+  })
+</script>
+</body>
+</html>

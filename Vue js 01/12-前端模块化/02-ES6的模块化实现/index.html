@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<!--type="module":防止命名冲突，模块化-->
+<!--
+ES6里的导入和导出
+export：导出
+import：导入
+-->
+<script src="aaa.js" type="module"></script>
+<script src="bbb.js" type="module"></script>
+<script src="mmm.js" type="module"></script>
+</body>
+</html>
+<!--
+webpack:现代的JavaScript应用的静态模块打包工具
+grunt/gulp更加强调的是前端流程的自动化，模块化不是他的核心
+webpack更加强调模块化开发管理，而文件压缩合并，预处理等功能，是他附带的功能
+webpack为了可以正常运行，必须依赖node环境
+node环境为了可以正常的执行很多代码，必须其中包含各种依赖的包
+npm工具（node packages manager）
+-->

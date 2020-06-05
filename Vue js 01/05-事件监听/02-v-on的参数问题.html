@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<!--
+v-on参数：
+当通过methods中定义方法，以供@click调用时，需要注意参数问题
+情况一：如果该方法不需要额外参数，那么方法后的()可以不添加，但是如果方法本身中有一个参数，
+那么默认将原生事件event参数传递进去
+情况二：如果需要同时传入某个参数，同时需要event时，可以通过$event传入参数
+-->
+<div id="app">
+<!--  事件调用的方法没有参数-->
+  <button @click="btn1Click()">按钮1</button>
+  <button @click="btn1Click">按钮1</button>
+<!--  在事件定义时，写函数时省略了小括号，但是方法本身是需要一个参数的-->
+<!--  <button @click="btn2Click(123)">按钮2</button>-->
+
+<!--  先不传入，默认都是undefined-->
+<!--  <button @click="btn2Click()">按钮2</button>-->
+
+<!--  vue会默认将浏览器生产的event事件对象作为参数传入到方法-->
+  <button @click="btn2Click">按钮2</button>
+<!--方法定义时，我们需要event对象，同时又需要其他参数-->
+<!--  在调用方法时，如何手动获取浏览器参数的event对象：$event-->
+<!--  如果abc不加单引号，解析时会被当成变量，然后报错，除非在下面加上abc这个变量然后赋值-->
+  <button @click="btn3Click('abc',$event)">按钮3</button>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+  const app =new Vue({
+    el: '#app',
+    data:{
+    },
+    methods:{
+      btn1Click(){
+        console.log("btn1Click");
+      },
+      btn2Click(event){
+        console.log('--------',event);
+      },
+      btn3Click(abc,event){
+        console.log('++++++',abc, event);
+      }
+    }
+  })
+</script>
+</body>
+</html>

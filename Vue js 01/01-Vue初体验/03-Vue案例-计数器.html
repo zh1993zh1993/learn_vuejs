@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <h2>当前计数：{{counter}}</h2>
+<!--    <button v-on:click="counter++">+</button>-->
+<!--    <button v-on:click="counter--">-</button>-->
+    <button v-on:click="add">+</button>
+    <button @click="sub">-</button>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+      const obj={
+        counter:0,
+        message:'abc'
+    }
+
+
+    new Vue()
+      const app=new Vue({
+        el:'#app',
+        data: obj,
+        methods:{
+            add() {
+               console.log("add被执行");
+               this.counter++
+            },
+            sub(){
+                console.log("sub被执行");
+                this.counter--
+            }
+        },
+        beforeCreate:function(){
+
+        },
+        created:function () {
+            console.log('created')
+        },
+        mounted:function () {
+            console.log('mounted')
+        }
+    })
+    /*
+    1.el:
+    类型：string|HTMLElement
+    作用：决定之后Vue实例会管理哪一个DOM
+    2.data：
+    类型：Object|Function（组件中，data必须是一个函数）
+    作用：Vue实例对应的数据对象
+    3.methods:
+    类型：{[key:string]:Function}
+    作用：定义属于Vue的一些方法，可以在其他地方调用，也可以在指令中使用
+    *
+    开发中什么时候称之为方法，什么时候称之为函数？
+    方法：method
+    函数：function
+    *
+    生命周期：事物从诞生到消亡的过程
+    Vue生命周期：
+    代码规范：缩进两个空格
+    */
+</script>
+</body>
+</html>

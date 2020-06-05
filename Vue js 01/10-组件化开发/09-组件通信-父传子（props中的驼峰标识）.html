@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--  v-bind不支持驼峰命名-->
+<cpn :c-info="info" :child-my-message="message"></cpn>
+</div>
+<template id="cpn">
+<!--  定义子组件，代码多的时候必须要有一个根，将其包裹起来，div-->
+  <div>
+    <h2>{{cInfo}}</h2>
+    <h2>{{childMyMessage}}</h2>
+  </div>
+</template>
+<script src="../js/vue.js"></script>
+<script>
+  const cpn={
+    template:'#cpn',
+    props:{
+      cInfo:{
+        // 如果类型是对象，那么默认值必须返回一个对象
+        type:Object,
+        default() {
+          return {}
+        }
+      },
+      childMyMessage:{
+        type:String,
+        default:''
+      }
+    }
+  }
+  const app =new Vue({
+    el: '#app',
+    data:{
+      message:'你好',
+     info:{
+       name:'why',
+       age:'19',
+       height:1.88
+     }
+    },
+    components:{
+      cpn
+    }
+  })
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <img v-bind:src="imgURL" alt="">
+  <a v-bind:href="aHref">百度一下</a>
+<!-- v-bind 语法（糖）简写方式-->
+  <img :src="imgURL" alt="">
+  <a :href="aHref">百度一下</a>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+  const app =new Vue({
+    el: '#app',
+    data:{
+      message:'你好啊',
+      imgURL:'https://img12.360buyimg.com/n1/s300x300_jfs/t1/55065/34/14866/200462/5dc10498E4b67161e/a86051994269baf5.jpg!q70',
+      aHref:'http://www.baidu.com'
+    }
+  })
+</script>
+<!--
+v-bind:动态绑定属性
+比如动态绑定a元素的href属性，img元素的src属性
+-->
+</body>
+</html>

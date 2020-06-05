@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<!--
+什么时候使用const：
+当我们修饰的标识符不会被再次赋值时，就可以使用const来保证数据的安全性
+建议：在开发中，使用const，只有需要改变某个标识符的时候才使用let（swift-let/var）
+-->
+<script>
+/*
+1.注意一：一旦const修饰的标识符被赋值之后，不能修改！
+2.注意二：在使用const定义标识符，必须进行赋值。
+3.注意三：常量的含义是指向的对象不能修改，但是可以改变对象内部的属性。
+*/
+ const obj={
+   name:'why',
+   age:18,
+   height:1.88
+ }
+console.log(obj);
+obj.name='zh';
+ obj.age='40';
+ obj.height=1.22
+console.log(obj);
+
+</script>
+</body>
+</html>

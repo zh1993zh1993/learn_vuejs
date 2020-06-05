@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <ul>
+<!--    key:让内部性能更高,但是重复添加会报错，因为不能保证其唯一性-->
+    <li v-for="item in letters" >{{item}}</li>
+  </ul>
+  <button @click="btnClick">按钮</button>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+  const app =new Vue({
+    el: '#app',
+    data:{
+      letters:['a','b','c','d']
+    },
+    methods:{
+      btnClick(){
+      /*  1.push方法:在数组最后面添加元素，可添加多个，响应式
+        this.letters.push('aaa','bbb')*/
+
+      /* 2.  pop(),删除数组中的最后一个元素，响应式
+        this.letters.pop()*/
+
+        /* 3.shift() 删除数组中的第一个元素，响应式
+        this.letters.shift()*/
+
+        /* 4. unshift():在数组最前面添加元素，可添加多个，响应式
+        this.letters.unshift('hhh')*/
+
+      //  splice():删除元素/插入元素/替换元素 响应式
+      //  删除元素：第二个参数传入你要删除第几个元素(如果没有传，就是删除后面所有元素)
+      //  splice(start)
+      //  替换元素：第二个参数表示要替换几个元素，后面是用于替换前面的元素
+      //   this.letters.splice(1,3,'m','n','l')
+      //  插入元素：第二个参数传入0表示不删除元素，后面跟上要插入的元素
+      //   this.letters.splice(1,0,'x','y','z')
+
+      //  sort() 给元素排序
+      //   this.letters.sort()
+
+      //   reverse():将数组内的元素反向排列
+      //   this.letters.reverse()
+
+      // 注意：通过索引值修改数组中的元素，不是响应式
+      //   this.letters[0]='bbbbb'
+      //   this.letters.splice(0,1,'bbbbb')
+
+        //Vue内部自带的方法，响应式 set(要修改的对象,索引值,修改后的值)
+        Vue.set(this.letters,0,'bbbbb')
+      }
+    }
+  })
+
+
+
+
+  /*可变参数
+  function sum(...num) {
+    console.log(num);
+  }
+  sum(20,30,50,50,5,55,555)*/
+</script>
+</body>
+</html>

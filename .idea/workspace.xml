@@ -1,16 +1,266 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ChangeListManager">
+    <list default="true" id="5ae58f9a-ae05-4e75-891b-c5bddb12a383" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/assets/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/assets/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/assets/img/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/assets/img/login2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/assets/img/login3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/assets/img/suobai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/assets/img/suohei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/assets/img/toubai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/common/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/common/BottomPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/common/Nav.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/common/Search.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/LeftSort.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/leftItems/LeftSortItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/leftItems/LeftSortItem10.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/leftItems/LeftSortItem11.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/leftItems/LeftSortItem12.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/leftItems/LeftSortItem13.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/leftItems/LeftSortItem14.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/leftItems/LeftSortItem15.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/leftItems/LeftSortItem16.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/leftItems/LeftSortItem17.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/leftItems/LeftSortItem2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/leftItems/LeftSortItem3.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/leftItems/LeftSortItem4.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/leftItems/LeftSortItem5.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/leftItems/LeftSortItem6.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/leftItems/LeftSortItem7.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/leftItems/LeftSortItem8.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/content/leftItems/LeftSortItem9.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/login/LoginPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/common/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/components/common/scroll/Scroll.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/components/content/backTop/BackTop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/network/detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/views/detail/Detail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/views/detail/childComps/DetailBaseInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/views/detail/childComps/DetailGoodsInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/views/detail/childComps/DetailNavBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/views/detail/childComps/DetailParamInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/views/detail/childComps/DetailShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/views/detail/childComps/DetailSwiper.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/00-ES6的补充/01-块级作用域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/00-ES6的补充/02-块级作用域（ES5没闭包-有闭包-let对比）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/00-ES6的补充/03-const的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/00-ES6的补充/04-对象字面量的增强写法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/01-Vue初体验/01-helloVuejs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/01-Vue初体验/02-Vue的列表展示.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/01-Vue初体验/03-Vue案例-计数器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/01-Vue初体验/04-Vue的template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/02-插值的操作/01-Mustache语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/02-插值的操作/02-v-once指令的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/02-插值的操作/03-v-html指令的使用‘.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/02-插值的操作/04-v-text指令的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/02-插值的操作/05-v-pre指令的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/02-插值的操作/06-v-cloak指令的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/03-动态绑定属性/01-v-bind的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/03-动态绑定属性/02-v-bind动态绑定class（对象语法）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/03-动态绑定属性/03-v-bind动态绑定class（数组语法）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/03-动态绑定属性/04-作业（v-for和v-bind的结合）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/03-动态绑定属性/05-v-bind动态绑定style（对象语法）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/03-动态绑定属性/06-v-bind动态绑定style（数组语法）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/04-计算属性/01-计算属性的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/04-计算属性/02-计算属性的复杂操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/04-计算属性/03-计算属性的setter和getter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/04-计算属性/04-计算属性和methods的对比.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/05-事件监听/01-v-on的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/05-事件监听/02-v-on的参数问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/05-事件监听/03-v-on的修饰符.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/06-条件判断/01-v-if的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/06-条件判断/02-v-if和v-else的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/06-条件判断/03-v-if和v-else-if和v-else的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/06-条件判断/04-用户登录切换案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/06-条件判断/05-用户切换案例（小问题）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/06-条件判断/06-v-show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/07-循环遍历/01-v-for遍历数组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/07-循环遍历/02-v-for遍历对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/07-循环遍历/03-v-for使用过程添加key.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/07-循环遍历/04-哪些数组的方法是响应式的.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/07-循环遍历/05-作业的回顾和完成.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/08-书籍购物车/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/08-书籍购物车/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/08-书籍购物车/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/08-书籍购物车/高阶函数.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/09-v-model使用/01-v-model的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/09-v-model使用/02-v-model原理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/09-v-model使用/03-v-model结合radio类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/09-v-model使用/04-v-model结合checkbox类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/09-v-model使用/05-v-model结合select类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/09-v-model使用/06-v-model修饰符的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/10-组件化开发/01-vue组件化的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/10-组件化开发/02-全局组件和局部组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/10-组件化开发/03-父组件和子组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/10-组件化开发/04-组件的语法糖注册方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/10-组件化开发/05-组件模板的分离写法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/10-组件化开发/06-组件中的数据存放问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/10-组件化开发/07-组件中data为什么是函数（面试）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/10-组件化开发/08-组件通信-父组件向子组件传递数据.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/10-组件化开发/09-组件通信-父传子（props中的驼峰标识）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/10-组件化开发/10-通信组件-子传父（自定义事件）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/10-组件化开发/11-组件通信-父子组件通信案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/10-组件化开发/12-组件通信-父子组件通信案列（watch实现）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/10-组件化开发/13-组件访问-父访问子.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/10-组件化开发/14-组件访问-子访问父-parent-root.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/11-组件化高级/01-slot-插槽的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/11-组件化高级/02-slot-具名插槽的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/11-组件化高级/03-什么是编译的作用域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/11-组件化高级/04-作用域插槽的案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/12-前端模块化/01-为什么要有模块化/aaa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/12-前端模块化/01-为什么要有模块化/bbb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/12-前端模块化/01-为什么要有模块化/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/12-前端模块化/01-为什么要有模块化/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/12-前端模块化/02-ES6的模块化实现/aaa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/12-前端模块化/02-ES6的模块化实现/bbb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/12-前端模块化/02-ES6的模块化实现/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/12-前端模块化/02-ES6的模块化实现/mmm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue js 01/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/bookcity" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/bookcity/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/bookcity/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/bookcity/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/supermall" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/supermall" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/supermall/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/supermall/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/supermall/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/supermall/src/components/common/swiper/Swiper.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/components/common/swiper/Swiper.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/supermall/src/components/content/goods/GoodsList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/components/content/goods/GoodsList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/supermall/src/components/content/goods/GoodsListItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/components/content/goods/GoodsListItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/supermall/src/components/content/tabControl/TabControl.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/components/content/tabControl/TabControl.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/supermall/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/supermall/src/network/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/network/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/supermall/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/supermall/src/views/category/Category.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/views/category/Category.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/supermall/src/views/home/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/views/home/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/supermall/src/views/home/childComps/HomeSwiper.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/views/home/childComps/HomeSwiper.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs09/supermall/src/views/profile/Profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs09/supermall/src/views/profile/Profile.vue" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/LearnVuejs09/bookcity" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-100" />
     <option name="y" value="245" />
     <option name="width" value="1330" />
     <option name="height" value="690" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="01-learn_web_vue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01-learn_web_vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ae58f9a-ae05-4e75-891b-c5bddb12a383" name="Default Changelist" comment="" />
+      <created>1591345045317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591345045317</updated>
+      <workItem from="1591345046666" duration="1550000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1550000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
 </project>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <span v-if="isUser">
+<!--    for:点击文字会聚焦文本框-->
+    <lable for="username">用户账号:</lable>
+    <input type="text" id="username" placeholder="用户账号" key="username">
+  </span>
+  <span v-else>
+     <lable for="email">用户邮箱：</lable>
+    <input type="text" id="email" placeholder="用户邮箱" key="email">
+  </span>
+  <button @click="isUser=!isUser">切换类型</button>
+</div>
+<!--
+问题：
+在输入内容的情况下，切换类型，但是文字依旧是显示之前输入的内容，按道理讲不应该出现这种问题，
+因为已经切换到另一个input的元素中去了
+问题解答：
+因为vue在进行DOM渲染时，出于性能考虑，会尽可能复用已经存在的元素
+在案例中，vue内部会发现原来的input元素不再使用，直接作为else中的input来使用
+解决方案：
+如果不希望vue出现类似重复利用的问题，可以给对应的input添加key
+并且需要保证key的不同
+-->
+<script src="../js/vue.js"></script>
+<script>
+  const app =new Vue({
+    el: '#app',
+    data:{
+      isUser:true
+    }
+  })
+</script>
+</body>
+</html>
