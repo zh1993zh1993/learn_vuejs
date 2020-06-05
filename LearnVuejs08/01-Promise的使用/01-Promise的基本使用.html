@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+// 使用setTimeout
+// setTimeout(()=>{
+//   console.log('hello');
+// },1000)
+
+// 异步操作
+// 参数->函数（resolve,reject）
+//resolve,reject:本身又是函数
+// 链式编程
+/*
+  new Promise((resolve,reject)=>{
+    // 第一次网络请求的代码
+    setTimeout(()=>{
+      resolve()
+    },1000)
+  }).then(()=>{
+    // 第一次拿到结果的处理代码
+    console.log('hello,world');
+    console.log('hello,world');
+    console.log('hello,world');
+    console.log('hello,world');
+    console.log('hello,world');
+
+    return new Promise((resolve,reject)=>{
+      // 第二次网络请求的代码
+      setTimeout(()=>{
+     resolve()
+      })
+    })
+  }).then(()=>{
+    // 第二次拿到结果的处理代码
+    console.log('hello,Vuejs');
+    console.log('hello,Vuejs');
+    console.log('hello,Vuejs');
+    console.log('hello,Vuejs');
+    console.log('hello,Vuejs');
+
+  return new Promise((resolve,reject)=>{
+    // 第三次网络请求的代码
+    setTimeout(()=>{{
+      resolve()
+    }})
+  })
+  }).then(()=>{
+      // 第三次处理的代码
+      console.log('hello,Vue');
+      console.log('hello,Vue');
+      console.log('hello,Vue');
+      console.log('hello,Vue');
+      console.log('hello,Vue');
+  })*/
+/*什么情况下回用到Promise?
+* 一般情况下是有异步操作时，使用Promise对这个异步操作进行封装
+*
+*new ->构造函数（1.保存一些状态信息 2.执行传入的函数）
+* 在执行传入的回调函数时，会传入两个参数，resolve，reject，本身又是函数
+* catch:捕获
+* */
+new Promise((resolve,reject)=>{
+  setTimeout(()=>{
+    // 成功的时候调用resolve,然后回调then
+    resolve('hello，data')
+
+  //  失败的时候调用reject，然后回调catch
+    reject('error message')
+  },1000)
+}).then((data)=>{
+//  1.100行的处理代码,data就是resolve里面的数据
+  console.log(data);
+}).catch(err =>{
+
+})
+</script>
+</body>
+</html>

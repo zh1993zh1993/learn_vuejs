@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/js/jquery.js" type="text/javascript" ></script>
+
+    <script type="text/javascript">
+        function login() {
+            var username = $("#username").val();
+            var password = $("#password").val();
+
+
+            var params = {"username": username, "password": password};
+           /* $.post("/login",params,function (result) {
+                $("#sp").html(result );
+            })*/
+
+            //var params = "username="+username+"&password="+password;
+
+
+            //方式ajax
+          $.ajax({
+                url: '/login',
+                type: 'GET',
+               // dataType: 'json',
+                data: params,
+                timeout: 3000,
+                cache: false,
+                beforeSend: LoadFunction, //加载执行方法    
+                error: erryFunction,  //错误执行方法    
+                success: succFunction //成功执行方法    
+            })
+            function LoadFunction() {
+                $("#sp").html('加载中...');
+            }
+            function erryFunction() {
+                alert("error");
+            }
+            function succFunction(result) {
+                if (result) {
+                    $("#sp").html(result );
+
+
+                } else {
+                    //完全等于document.getElementById("erSpan").innerHTML = result+":"+"登录失败！";
+                    $("#sp").html(result );
+
+
+                }
+            }
+
+
+        }
+    </script>
+</head>n
+<body>
+<form action="" method="post">
+    用户名：<input type="text" name="name" id="username"><br>
+    密码：<input type="password" name="password" id="password"><br>
+    <input type="button" value="登录" onclick="login()" /><span id="sp"></span>
+</form>
+</body>
+</html>

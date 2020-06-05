@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  //1.参数问题：
+  //1.1放入两个参数
+  const sum=(num1,num2)=>{
+    return num1+num2
+  }
+
+//  1.2放入一个参数,可以省略小括号
+  const power=num=>{
+    return num*num
+  }
+//  2.函数中
+//  2.1函数代码块中有多行代码时
+  const test=()=>{
+  //  1.打印一个HelloWord
+    console.log('HelloWord');
+  //  2.打印hello vuejs
+    console.log('hello vuejs');
+  }
+//  2.2函数代码块中只有一行代码
+//   const mul=(num1,num2)=>{
+//     return num1+num2
+//   }改成下面简便写法
+  const mul=(num1,num2)=>num1*num2
+  console.log(mul(20, 30));
+  const demo=()=>console.log('hello')
+  console.log(demo());
+</script>
+</body>
+</html>

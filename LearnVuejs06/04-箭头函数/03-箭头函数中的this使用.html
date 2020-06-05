@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  //问题：箭头函数中的this是如何查找的？
+//  箭头函数是执行上下文的，setTimeout之类的回调函数作用域是在window，
+  //  如果使用箭头函数就可以解决这个问题
+//  结论：向外层作用域中，一层层查找this，直到有this的定义
+// const obj={
+//   aaa(){
+//     setTimeout(function () {
+//       console.log(this);//window
+//     })
+//     setTimeout(()=>{
+//       console.log(this);//Obj对象
+//     })
+//   }
+// }
+// obj.aaa()
+  const obj={
+    aaa(){
+      setTimeout(function () {
+        setTimeout(function () {
+          console.log(this);//window
+        })
+        setTimeout(()=>{
+          console.log(this);//window
+        })
+      })
+      setTimeout(()=>{
+        setTimeout(function () {
+          console.log(this);//window
+        })
+      })
+      setTimeout(()=>{
+        console.log(this);//Obj对象
+      })
+    }
+  }
+  obj.aaa()
+
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function checkName(){
+            var value = document.getElementById("name").value;
+            //1.建立一个xmlHttpRequest对象
+            var xhr = new XMLHttpRequest();
+            //2.使用open方法与服务器建立链接
+            xhr.open("post", "checkName?name="+value, false);
+            //3.向服务器发送数据
+            xhr.send();
+            //4.设置回调函数
+            xhr.onreadystatechange = function(){
+                //readyState==4表示服务器返回数据已经完成
+                if(xhr.readyState==4){
+                    //status==200 表示返回结果完成
+                    if(xhr.status==200){
+                        //5.对响应数据进行处理
+                        document.getElementById("sp").innerHTML = xhr.responseText;
+                    }else{
+                        alert("服务器出现故障，我们会尽快解决");
+                    }
+                }
+
+            }
+        }
+
+    </script>
+</head>
+<body>
+<form action="" method="post">
+    用户名：<input type="text" name="name" id="name" onblur="checkName()"><span id="sp"></span><br>
+    密码：<input type="password" name="password"><br>
+</form>
+</body>
+</html>

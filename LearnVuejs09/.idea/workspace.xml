@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="73ba7b2b-a841-4e31-acbc-878028a53d2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bookcity/src/assets/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/assets/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/assets/img/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/assets/img/login2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/assets/img/login3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/assets/img/suobai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/assets/img/suohei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/assets/img/toubai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/common/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/common/BottomPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/common/Nav.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/common/Search.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/LeftSort.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem10.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem11.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem12.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem13.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem14.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem15.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem16.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem17.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem3.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem4.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem5.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem6.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem7.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem8.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem9.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcity/src/components/login/LoginPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/common/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/components/common/scroll/Scroll.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/components/content/backTop/BackTop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/network/detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/views/detail/Detail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/views/detail/childComps/DetailBaseInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/views/detail/childComps/DetailGoodsInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/views/detail/childComps/DetailNavBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/views/detail/childComps/DetailParamInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/views/detail/childComps/DetailShopInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/views/detail/childComps/DetailSwiper.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookcity/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bookcity/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookcity/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bookcity/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookcity/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/bookcity/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookcity/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookcity/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookcity/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/bookcity/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/src/components/common/swiper/Swiper.vue" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/src/components/common/swiper/Swiper.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/src/components/content/goods/GoodsList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/src/components/content/goods/GoodsList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/src/components/content/goods/GoodsListItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/src/components/content/goods/GoodsListItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/src/components/content/tabControl/TabControl.vue" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/src/components/content/tabControl/TabControl.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/src/network/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/src/network/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/src/views/category/Category.vue" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/src/views/category/Category.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/src/views/home/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/src/views/home/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/src/views/home/childComps/HomeSwiper.vue" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/src/views/home/childComps/HomeSwiper.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/src/views/profile/Profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/src/views/profile/Profile.vue" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LearnVuejs09" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem4.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1440">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="92" column="3" selection-start-line="79" selection-start-column="2" selection-end-line="92" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem6.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1440">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem7.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1575">
+              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem8.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1575">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem9.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1440">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem10.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1440">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem11.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1440">
+              <caret line="32" column="55" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem12.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2340">
+              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem5.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1485">
+              <caret line="33" column="25" selection-start-line="32" selection-start-column="40" selection-end-line="33" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Gradle Kotlin DSL Build Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bookcity" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/supermall/src/components/common/swiper/Swiper.vue" />
+        <option value="$PROJECT_DIR$/supermall/src/views/detail/childComps/DetailGoodsInfo.vue" />
+        <option value="$PROJECT_DIR$/supermall/src/network/detail.js" />
+        <option value="$PROJECT_DIR$/supermall/src/network/axios.js" />
+        <option value="$PROJECT_DIR$/supermall/src/views/detail/Detail.vue" />
+        <option value="$PROJECT_DIR$/supermall/src/network/request.js" />
+        <option value="$PROJECT_DIR$/01-learnaxios/src/network/request.js" />
+        <option value="$PROJECT_DIR$/mypeoject/src/pages/Home.vue" />
+        <option value="$PROJECT_DIR$/myproject/package.json" />
+        <option value="$PROJECT_DIR$/myproject/package-lock.json" />
+        <option value="$PROJECT_DIR$/myproject/src/App.vue" />
+        <option value="$PROJECT_DIR$/myproject/index.html" />
+        <option value="$PROJECT_DIR$/myproject/src/views/Home/Home.vue" />
+        <option value="$PROJECT_DIR$/myproject/src/assets/js/cookie.js" />
+        <option value="$PROJECT_DIR$/myproject/src/views/home/Home.vue" />
+        <option value="$PROJECT_DIR$/myproject/src/main.js" />
+        <option value="$PROJECT_DIR$/myproject/src/views/login/Login.vue" />
+        <option value="$PROJECT_DIR$/myproject/src/views/main/Main.vue" />
+        <option value="$PROJECT_DIR$/myproject/src/router/router.js" />
+        <option value="$PROJECT_DIR$/myproject/src/router/index.js" />
+        <option value="$PROJECT_DIR$/supermall/src/router/index.js" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/HelloWorld.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/common/Nav.html" />
+        <option value="$PROJECT_DIR$/bookcity/src/main.js" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/common/Nav.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/common/Search.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/LeftSortItem.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/LeftSortItem2.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem13.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem14.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem15.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem16.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem17.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem12.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem5.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem7.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem6.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem8.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem9.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem10.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem11.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem3.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/common/login.js" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/login/Login.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/common/BottomPage.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/login/LoginPage.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/App.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/LeftSort.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem2.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem.vue" />
+        <option value="$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem4.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="684" />
+    <option name="y" value="90" />
+    <option name="width" value="980" />
+    <option name="height" value="1046" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LearnVuejs09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnVuejs09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnVuejs09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnVuejs09" type="462c0819:PsiDirectoryNode" />
+              <item name="bookcity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnVuejs09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnVuejs09" type="462c0819:PsiDirectoryNode" />
+              <item name="bookcity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnVuejs09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnVuejs09" type="462c0819:PsiDirectoryNode" />
+              <item name="bookcity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnVuejs09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnVuejs09" type="462c0819:PsiDirectoryNode" />
+              <item name="bookcity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnVuejs09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnVuejs09" type="462c0819:PsiDirectoryNode" />
+              <item name="bookcity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="leftItems" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../01-js_base" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\LearnVuejs09\bookcity\src\assets\img" />
+      <recent name="D:\LearnVuejs09\bookcity\src\components\content\leftItems" />
+      <recent name="D:\LearnVuejs09\bookcity\src\assets\css" />
+      <recent name="D:\LearnVuejs09\supermall\src\views\detail" />
+      <recent name="D:\LearnVuejs09\supermall\src\network" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\LearnVuejs09\bookcity\src\assets\img" />
+      <recent name="D:\LearnVuejs09\bookcity\src\components\content\leftItems" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73ba7b2b-a841-4e31-acbc-878028a53d2a" name="Default Changelist" comment="" />
+      <created>1582094194982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582094194982</updated>
+      <workItem from="1582094196183" duration="8019000" />
+      <workItem from="1582251342655" duration="8385000" />
+      <workItem from="1582270803042" duration="346000" />
+      <workItem from="1582271169395" duration="3097000" />
+      <workItem from="1582332455149" duration="7916000" />
+      <workItem from="1582341841053" duration="2585000" />
+      <workItem from="1582344462939" duration="95000" />
+      <workItem from="1582344578005" duration="4790000" />
+      <workItem from="1582350602153" duration="4708000" />
+      <workItem from="1582524257116" duration="3897000" />
+      <workItem from="1582872733429" duration="5996000" />
+      <workItem from="1583117194688" duration="16075000" />
+      <workItem from="1583216531720" duration="10000" />
+      <workItem from="1583217971404" duration="3873000" />
+      <workItem from="1583286439628" duration="6536000" />
+      <workItem from="1583374845871" duration="8669000" />
+      <workItem from="1583462733011" duration="3897000" />
+      <workItem from="1583718594129" duration="24803000" />
+      <workItem from="1583757861420" duration="1901000" />
+      <workItem from="1583803811303" duration="8788000" />
+      <workItem from="1583820282099" duration="13000" />
+      <workItem from="1583922155155" duration="4476000" />
+      <workItem from="1584062494738" duration="5578000" />
+      <workItem from="1584151142190" duration="1301000" />
+      <workItem from="1584424790615" duration="27000" />
+      <workItem from="1585129973803" duration="312000" />
+      <workItem from="1585535456696" duration="39000" />
+      <workItem from="1586922397252" duration="774000" />
+      <workItem from="1587369442060" duration="303000" />
+      <workItem from="1587370181071" duration="599000" />
+      <workItem from="1587866887301" duration="1358000" />
+      <workItem from="1588144294484" duration="11000" />
+      <workItem from="1589869074102" duration="1417000" />
+      <workItem from="1589870752319" duration="1384000" />
+      <workItem from="1589957525775" duration="3150000" />
+      <workItem from="1589975636323" duration="1803000" />
+      <workItem from="1590472543549" duration="8218000" />
+      <workItem from="1590997596361" duration="4050000" />
+      <workItem from="1591008587405" duration="8667000" />
+      <workItem from="1591017363408" duration="3673000" />
+      <workItem from="1591077154191" duration="11785000" />
+      <workItem from="1591093417922" duration="11902000" />
+      <workItem from="1591170059716" duration="6413000" />
+      <workItem from="1591181242047" duration="7456000" />
+      <workItem from="1591230147863" duration="2186000" />
+      <workItem from="1591233816613" duration="4936000" />
+      <workItem from="1591251780817" duration="8391000" />
+      <workItem from="1591271794294" duration="79000" />
+    </task>
+    <task id="LOCAL-00001" summary="vuejs">
+      <created>1582259999366</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582259999366</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="224687000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.23283261" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50111854" side_tool="true" weight="0.20976394" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49785408" visible="true" weight="0.3769575" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50214595" side_tool="true" weight="0.20246086" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="vuejs" />
+    <option name="LAST_COMMIT_MESSAGE" value="vuejs" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/common/Nav.html" />
+    <entry file="file://$PROJECT_DIR$/bookcity/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/assets/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/assets/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7695" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/assets/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/assets/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3105" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/components/content/goods/GoodsList.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/components/content/goods/GoodsListItem.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/components/content/backTop/BackTop.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-654" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/components/content/mainTabbr/MainTabBar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="27" column="62" lean-forward="true" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/components/common/navbar/NavBar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/components/common/scroll/Scroll.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/components/common/swiper/SwiperItem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/components/common/swiper/Swiper.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/components/common/tabbar/TabBar.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/components/common/tabbar/TabBarItem.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/views/cart/Cart.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/views/category/Category.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1215">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="n#ul#0;n#div#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/views/detail/Detail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#415#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/views/detail/childComps/DetailBaseInfo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem15.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem16.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/common/Search.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-input#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem14.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="86" column="3" lean-forward="true" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem13.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="78" column="23" lean-forward="true" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/common/utils.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/common/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/assets/img/more.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/login/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem17.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675">
+          <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/login/LoginPage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4860">
+          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/common/BottomPage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5940">
+          <caret line="132" column="3" selection-start-line="132" selection-start-column="3" selection-end-line="132" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/common/Nav.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#el-menu-item#0;n#el-menu#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#el-menu-item#0;n#el-menu#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#el-menu-item#1;n#el-menu#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-menu-item#2;n#el-menu#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/LeftSort.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem2.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem3.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="51" selection-start-line="32" selection-start-column="15" selection-end-line="33" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem4.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem6.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem7.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem8.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem9.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem10.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem11.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem12.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem5.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="33" column="25" selection-start-line="32" selection-start-column="40" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookcity/src/components/content/leftItems/LeftSortItem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="92" column="3" selection-start-line="79" selection-start-column="2" selection-end-line="92" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
